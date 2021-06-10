@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Joke Teller</title>
     <link rel="stylesheet" href="style.css">
 
      <!-- Favicon Links -->
@@ -16,8 +15,12 @@
 
 </head>
 <body>
-    <!--Use ctrl+? to open block comment  -->
+    <div class="container">
+        <button class="item" id="button">Tell Me A Joke</button>
+        <audio class="item" id="audio" controls hidden></audio>
+    </div>
     <!-- Script -->
+    <script src="voice.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
